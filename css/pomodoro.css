@@ -1,0 +1,15 @@
+body{
+    background-image: url("../images/time.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    color: white;
+    font-family: monospace;
+}
+
+h2{
+    display: inline;
+}
+
+#start{
+    margin: 10px;
+}

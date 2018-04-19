@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/pomodoro.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/pomodoro.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <title>Pomodoro Clock</title>
+</head>
+<body>
+    <audio id="myAudio" src="times-up.mp3" type="audio/mpeg"></audio>    
+    <div class="text-center">
+        <h1>Pomodoro Clock</h1>
+        <div class="timeDiv">
+            <h1 id="title1">Session Time</h1>
+            <a href="#" class="btn btn-primary" id="add5Clock">+</a>
+            <h2 id="timeType"></h2>
+            <h2 id="num">5</h2>
+            <a href="#" class="btn btn-primary" id="minus5Clock">-</a>
+            <a href="#" class="btn btn-primary" id="reset">Reset</a>
+        </div>
+
+        <div class="breakDiv">
+            <h1 id="title1">Break Time</h1>
+            <a href="#" class="btn btn-primary" id="add5Break">+</a>
+            <h2 id="breakNum">5</h2>
+            <a href="#" class="btn btn-primary" id="minus5Break">-</a>
+        </div>
+
+        <a href="#" class="btn btn-primary" id="start">Start</a>
+
+    </div>
+</body>
+</html>
