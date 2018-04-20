@@ -17,9 +17,10 @@
     <title>Pomodoro Clock</title>
 </head>
 <body>
-    <audio id="myAudio" src="times-up.mp3" type="audio/mpeg"></audio>    
+    <audio id="myAudio" src="audio/times-up.mp3" type="audio/mpeg"></audio>    
     <div class="text-center">
         <h1>Pomodoro Clock</h1>
+
         <div class="timeDiv">
             <h1 id="title1">Session Time</h1>
             <a href="#" class="btn btn-primary" id="add5Clock">+</a>
@@ -34,6 +35,13 @@
             <a href="#" class="btn btn-primary" id="add5Break">+</a>
             <h2 id="breakNum">5</h2>
             <a href="#" class="btn btn-primary" id="minus5Break">-</a>
+        </div>
+
+        <div class="item">
+            <h2 id="lastnum"></h2>
+            <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+                <circle id="circle" class="circle_animation" r="69" cy="98" cx="98" stroke-width="10" stroke="#6fdb6f" fill="none"/>
+            </svg>
         </div>
 
         <a href="#" class="btn btn-primary" id="start">Start</a>
