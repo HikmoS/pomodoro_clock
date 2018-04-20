@@ -13,3 +13,26 @@ h2{
 #start{
     margin: 10px;
 }
+.item {
+    position: relative;
+    float: center;
+}
+
+.item h2 {
+    text-align:left;
+    position: absolute;
+    line-height: 125px;
+    margin-top:40px;
+    margin-left:60px;
+}
+
+svg {
+    transform: rotate(-90deg);
+}
+
+.circle_animation {
+  stroke-dasharray: 440; /* bu değer dairenin piksel çevresidir */
+  stroke-dashoffset: 440;
+  transition: all 1s linear;
+}
+
