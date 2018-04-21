@@ -31,7 +31,7 @@ svg {
 }
 
 .circle_animation {
-  stroke-dasharray: 440; /* bu değer dairenin piksel çevresidir */
+  stroke-dasharray: 440; /* bu değer dairenin piksel çevresidir(2*pi*r) */
   stroke-dashoffset: 440;
   transition: all 1s linear;
 }
